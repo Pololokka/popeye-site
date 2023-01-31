@@ -1,0 +1,35 @@
+.menu--sticky__container {
+    background-color: var(--cor-3);
+    width: 100%;
+    height: 100%;
+    border: 5px solid var(--cor-4);
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu--lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 5em;
+}
+
+.menu--lista__item {
+    padding: 1em 2em;
+}
+
+.menu--lista__link {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-4);
+    font-size: 20px;
+}
+
+.menu--lista__link:hover {
+    color: var(--cor-1);
+    text-shadow: 3px 3px var(--cor-2);
+}

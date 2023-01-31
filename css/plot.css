@@ -1,0 +1,15 @@
+.plot--container {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.titulo--plot {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 1em 1em;
+}
+
+.texto--plot {
+    font-size: 25px;
+    padding: 0.2em 2em;
+}
