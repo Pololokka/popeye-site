@@ -7,6 +7,8 @@
     position: sticky;
     top: 0;
     z-index: 10;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .menu--lista {

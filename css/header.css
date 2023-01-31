@@ -1,5 +1,7 @@
 header {
     height: 100vh;
+    box-shadow: 0 1px 10px var(--cor-4);
+    margin-bottom: 2em;
 }
 
 .imagem__fundo--cabecalho {
@@ -11,6 +13,7 @@ header {
     filter: blur(2px);
     -webkit-filter: blur(2px);
     transition: 300ms;
+    
 }
 
 .imagem__fundo--cabecalho:hover {

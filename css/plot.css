@@ -1,0 +1,9 @@
+.plot--container {
+    text-align: center;
+}
+
+.titulo--plot {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 1em 1em;
+}
