@@ -1,0 +1,13 @@
+.rodape--container {
+    text-align: center;
+    background-color: var(--cor-2);
+    padding: 2em;
+    box-shadow: 0 -4px 10px var(--cor-3);
+}
+
+.rodape--texto {
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+    color: var(--cor-4);
+    padding: 0.7em;
+}

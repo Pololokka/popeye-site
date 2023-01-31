@@ -2,7 +2,7 @@
     padding: 1em 3em;
     text-align: center;
     background-color: var(--cor-2);
-    box-shadow: 4px 0 10px var(--cor-3), -4px 0 10px var(--cor-3);
+    box-shadow: 0 4px 10px var(--cor-3), 0 -4px 10px var(--cor-3);
 }
 
 .itens--gameplay {
