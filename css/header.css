@@ -1,0 +1,36 @@
+header {
+    height: 100vh;
+}
+
+.imagem__fundo--cabecalho {
+    background-image: url(../images/popeye-barco.png);
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    transition: 300ms;
+}
+
+.imagem__fundo--cabecalho:hover {
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.conteudo--cabecalho {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.titulo--cabecalho {
+    font-size: 30px;
+    margin-bottom: 0.3em;
+}
+
+.texto--cabecalho {
+    font-size: 25px;
+}

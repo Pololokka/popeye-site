@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(header.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+:root  {
+    --fonte-titulo: "Press Start 2P";
+    --font-geral: "Montserrat";
+
+    --cor-1: #f4febf;
+    --cor-2: #9ad942;
+    --cor-3: #04815c;
+    --cor-4: #082c44;
+}
+
+.titulo {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-4);
+}
+
+.texto {
+    font-family: var(--font-geral);
+    color: var(--cor-4);
+}
