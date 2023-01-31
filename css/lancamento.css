@@ -1,4 +1,13 @@
 .lancamento--container {
     padding: 5em 2em;
+    text-align: center;
 }
 
+.titulo--lancamento {
+    font-size: 30px;
+}
+
+.texto--lancamento {
+    font-size: 25px;
+    margin: 0.3em 0;
+}
