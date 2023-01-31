@@ -1,7 +1,7 @@
 # popeye-site
 Site do meu fã game do Popeye
 
-##Escopo do projeto:
+## Escopo do projeto:
 
 #### Home: 
 Página principal, que apresenta o projeto
