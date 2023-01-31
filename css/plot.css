@@ -1,5 +1,6 @@
 .plot--container {
     text-align: center;
+    margin: 1em 0;
 }
 
 .titulo--plot {
@@ -9,6 +10,6 @@
 }
 
 .texto--plot {
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 25px;
+    padding: 0.2em 2em;
 }

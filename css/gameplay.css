@@ -1,0 +1,40 @@
+.gameplay--container {
+    padding: 1em 3em;
+    text-align: center;
+    background-color: var(--cor-2);
+    box-shadow: 4px 0 10px var(--cor-3), -4px 0 10px var(--cor-3);
+}
+
+.itens--gameplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.imagem--gameplay {
+    float: left;
+    width: 25%;
+    box-shadow: 4px 4px 10px var(--cor-3), -4px -4px 10px var(--cor-3);
+    margin-right: 2em;
+    border-radius: 10px;
+}
+
+.conteudo--texto__gameplay {
+    padding: 3em 2em;
+}
+
+.titulo--gameplay {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.titulo--gameplay:hover {
+    color: var(--cor-1);
+    text-shadow: 3px 3px var(--cor-3);
+}
+
+.texto--gameplay {
+    font-size: 20px;
+    padding: 1em 0;
+}
