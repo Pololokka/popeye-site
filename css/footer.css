@@ -11,3 +11,7 @@
     color: var(--cor-4);
     padding: 0.7em;
 }
+
+.rodape--link:hover {
+    text-shadow: 3px 3px var(--cor-3);
+}
