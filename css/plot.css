@@ -7,3 +7,8 @@
     text-transform: uppercase;
     padding: 1em 1em;
 }
+
+.texto--plot {
+    font-size: 30px;
+    font-weight: 500;
+}
