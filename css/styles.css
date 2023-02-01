@@ -1,3 +1,4 @@
+/*principal e página inicial*/
 @import url(reset.css);
 @import url(header.css);
 @import url(nav-bar.css);
@@ -6,9 +7,14 @@
 @import url(lancamento.css);
 @import url(footer.css);
 
+/*blog*/
+@import url(headerBlog.css);
+
+/*fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
 
+/*variáveis*/
 :root  {
     --fonte-titulo: "Press Start 2P";
     --font-geral: "Montserrat";
