@@ -1,0 +1,24 @@
+.pagina-postagem__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1em 10em;
+    padding-bottom: 3em;
+}
+
+.titulo__postagem {
+    font-size: 30px;
+    margin: 0.3em 0;
+}
+
+.postagem__caixa--titulo,.postagem__caixa--data,
+.postagem__caixa--texto,.postagem__caixa--link {
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+    padding: 1em;
+    border-radius: 10px;
+    color: var(--cor-4);
+    background-color: var(--cor-2);
+    border: 5px solid var(--cor-3);
+}
