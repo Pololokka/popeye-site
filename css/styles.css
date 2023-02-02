@@ -8,8 +8,10 @@
 @import url(footer.css);
 
 /*blog*/
-@import url(headerBlog.css);
-@import url(postagem.css);
+@import url(blogPostagem.css);
+
+/*vídeos*/
+@import url(videosConteudo.css);
 
 /*fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');

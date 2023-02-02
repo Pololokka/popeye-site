@@ -1,0 +1,28 @@
+.videos__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em;
+}
+
+.conteudo__video {
+    width: 20%;
+    height: 40%;
+}
+
+.texto__video {
+    text-align: center;
+}
+
+.titulo__video {
+    font-size: 14px;
+    padding: 1em;
+}
+
+.texto__video {
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
