@@ -22,3 +22,19 @@
     background-color: var(--cor-2);
     border: 5px solid var(--cor-3);
 }
+
+.formulario__botao {
+    font-family: var(--fonte-titulo);
+    background-color: var(--cor-2);
+    border: 3px solid var(--cor-3);
+    color: var(--cor-4);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+    transition: all 0.1s;
+}
+
+.formulario__botao:hover {
+    text-shadow: 2px 2px var(--cor-1);
+    box-shadow: 3px 3px var(--cor-2);
+}
