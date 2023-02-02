@@ -39,3 +39,8 @@ body {
     font-family: var(--font-geral);
     color: var(--cor-4);
 }
+
+.texto--cabecalho__alternativo {
+    font-size: 25px;
+    font-style: italic;
+}
