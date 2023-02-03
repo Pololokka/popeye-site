@@ -1,0 +1,15 @@
+.conclusao__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10em 1em;
+}
+
+.titulo__conclusao {
+    font-size: 30px;
+}
+
+.texto__conclusao {
+    font-size: 20px;
+}
