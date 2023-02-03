@@ -14,8 +14,8 @@
 /*vídeos*/
 @import url(videosConteudo.css);
 
-/*postagem*/
-@import url(paginaPostagem.css);
+/*formulário*/
+@import url(paginaForm.css);
 
 /*fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');

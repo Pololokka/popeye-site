@@ -22,7 +22,7 @@
                 <a href="videos.html" class="menu--lista__link">Vídeos</a>
             </li>
             <li class="menu--lista__item">
-                <a href="#" class="menu--lista__link">Contato</a>
+                <a href="contato.html" class="menu--lista__link">Contato</a>
             </li>
         </ul>
     </nav>
@@ -36,14 +36,14 @@
     </header>
 
     <form class="pagina-postagem__container">
-        <label for="link" class="titulo titulo__postagem">Código do Vídeo</label>
-        <input type="text" id="link" class="postagem__caixa--link" placeholder="XlAnSpS75fY">
+        <label for="link-video" class="titulo titulo__form">Código do Vídeo</label>
+        <input type="text" id="link-video" class="input__formulario" placeholder="XlAnSpS75fY" required>
         
-        <label for="titulo" class="titulo titulo__postagem">Título</label>
-        <input type="text" id="titulo" class="postagem__caixa--titulo" placeholder="Popeye The Movie">
+        <label for="titulo-video" class="titulo titulo__form">Título</label>
+        <input type="text" id="titulo-video" class="input__formulario" placeholder="Popeye The Movie" required>
         
-        <label for="conteudo" class="titulo titulo__postagem">Conteúdo</label>
-        <textarea name="post" id="conteudo" class="postagem__caixa--texto" cols="30" rows="5" placeholder="Add the spinach to the pan, packing it down a bit if you need to with your hand. Use a couple of spatulas (or tongs) to lift the spinach..."></textarea>
+        <label for="conteudo-video" class="titulo titulo__form">Conteúdo</label>
+        <textarea name="post" id="conteudo-video" class="input__formulario" cols="30" rows="5" placeholder="Add the spinach to the pan, packing it down a bit if you need to with your hand. Use a couple of spatulas (or tongs) to lift the spinach..." required></textarea>
     
         <input type="submit" class="formulario__botao">
     </form>

@@ -1,4 +1,5 @@
-.pagina-postagem__container {
+.pagina-postagem__container,
+.email__container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -7,15 +8,25 @@
     padding-bottom: 3em;
 }
 
-.titulo__postagem {
+.titulo__form {
     font-size: 30px;
     margin: 0.3em 0;
 }
 
-.postagem__caixa--titulo,.postagem__caixa--data,
-.postagem__caixa--texto,.postagem__caixa--link {
+.input__formulario {
     font-family: var(--fonte-titulo);
     font-size: 20px;
+    padding: 1em;
+    border-radius: 10px;
+    color: var(--cor-4);
+    background-color: var(--cor-2);
+    border: 5px solid var(--cor-3);
+}
+
+.input__formulario--alternativo {
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+    width: 60%;
     padding: 1em;
     border-radius: 10px;
     color: var(--cor-4);
