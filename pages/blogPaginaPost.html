@@ -35,15 +35,16 @@
         </div>
     </header>
 
-    <form class="pagina-postagem__container">
+    <form class="pagina-postagem__container" data-formulario>
         <label for="titulo-blog" class="titulo titulo__form">Título</label>
-        <input type="text" id="titulo-blog" class="input__formulario" placeholder="Moby Dick" required>
+        <input type="text" id="titulo-blog" class="input__formulario" placeholder="Moby Dick" required data-titulo>
         
         <label for="data-blog" class="titulo titulo__form">Data</label>
-        <input type="date" id="data-blog" class="input__formulario" required>
+        <input type="date" id="data-blog" class="input__formulario" required data-date>
         
         <label for="conteudo-blog" class="titulo titulo__form">Conteúdo</label>
-        <textarea name="post" id="conteudo-blog" class="input__formulario" cols="30" rows="10" placeholder="As for me, I am tormented with an everlasting itch for things remote. I love to sail forbidden seas, and land on barbarous coasts..." required></textarea>
+        <textarea name="post" id="conteudo-blog" class="input__formulario" cols="30" rows="10" 
+        placeholder="As for me, I am tormented with an everlasting itch for things remote. I love to sail forbidden seas, and land on barbarous coasts..." required data-conteudo></textarea>
     
         <input type="submit" class="formulario__botao">
     </form>
@@ -55,6 +56,9 @@
         <a href="https://github.com/Pololokka" target="_blank" class="rodape--texto rodape--link">Git</a>
         <a href="https://www.linkedin.com/in/vitor-bulbovas-852348187/" target="_blank" class="rodape--texto rodape--link">Linkedin</a>
     </footer>
+
+    <script src="../app/conectaAPI.js"></script>
+    <script src="../app/criaBlog.js"></script>
 
 </body>
 </html>
