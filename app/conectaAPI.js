@@ -1,6 +1,6 @@
 //verifica a DB
 async function listaBlog() {
-    const conexao = await fetch("http://localhost:3000/videos")
+    const conexao = await fetch("http://localhost:3000/blog")
     const conexaoConvertida = await conexao.json();
 
     return conexaoConvertida;
@@ -9,7 +9,7 @@ async function listaBlog() {
 
 //coloca as coisas na DB do blog
 async function criaBlog(titulo, data, conteudo) {
-    const conexao = await fetch("http://localhost:3000/videos", {
+    const conexao = await fetch("http://localhost:3000/blog", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

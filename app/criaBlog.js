@@ -3,7 +3,6 @@ import { conectaAPIBlog } from "./conectaAPI.js";
 const form = document.querySelector("[data-formulario]");
 
 
-//tenta criar um novo item na DB, ou exibe um erro
 async function criarBlog (evento) {
     evento.preventDefault();
 
