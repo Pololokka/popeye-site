@@ -3,7 +3,7 @@
     {
       "id": 1,
       "titulo": "Primeiro post",
-      "data": "04/02/2023",
+      "data": "2023-02-04",
       "conteudo": "Esse é o meu primeiro post no blog. Esse post está sendo feito só para testes."
     },
     {
@@ -11,6 +11,24 @@
       "data": "2023-02-04",
       "conteudo": "esse é outro teste pra ver se tá tudo ok",
       "id": 2
+    },
+    {
+      "titulo": "iop",
+      "data": "4444-04-04",
+      "conteudo": "iop",
+      "id": 3
+    },
+    {
+      "titulo": "a",
+      "data": "1111-11-11",
+      "conteudo": "a",
+      "id": 4
+    },
+    {
+      "titulo": "eu vou ficar louco",
+      "data": "1111-11-11",
+      "conteudo": "essa porra vai me deixar louco",
+      "id": 5
     }
   ]
 }
