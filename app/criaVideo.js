@@ -10,6 +10,7 @@ async function criarVideo(evento) {
     const descricao = document.querySelector("[data-descricao]").value;
 
     try{
+        evento.preventDefault();
         await conectaAPIVideo.criaVideo(titulo, descricao, codigo);
         window.location.href = "../pages/videoPaginaConcluido.html"
         console.log("bonde do gordão")

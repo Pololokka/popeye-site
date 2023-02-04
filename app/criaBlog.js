@@ -4,13 +4,14 @@ const form = document.querySelector("[data-formulario]");
 
 
 async function criarBlog (evento) {
-    evento.preventDefault()
+    evento.preventDefault();
 
     const titulo = document.querySelector("[data-titulo]").value;
     const data = document.querySelector("[data-date]").value;
     const conteudo = document.querySelector("[data-conteudo]").value;
 
     try{
+        evento.preventDefault();
         await conectaAPIBlog.criaBlog(titulo, data, conteudo);
         window.location.href = "../pages/blogPaginaConcluido.html"
         console.log("bonde do gordão")

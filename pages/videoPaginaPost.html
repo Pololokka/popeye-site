@@ -35,15 +35,16 @@
         </div>
     </header>
 
-    <form class="pagina-postagem__container">
+    <form class="pagina-postagem__container" data-formulario>
         <label for="link-video" class="titulo titulo__form">Código do Vídeo</label>
-        <input type="text" id="link-video" class="input__formulario" placeholder="XlAnSpS75fY" required>
+        <input type="text" id="link-video" class="input__formulario" placeholder="XlAnSpS75fY" required data-codigo>
         
         <label for="titulo-video" class="titulo titulo__form">Título</label>
-        <input type="text" id="titulo-video" class="input__formulario" placeholder="Popeye The Movie" required>
+        <input type="text" id="titulo-video" class="input__formulario" placeholder="Popeye The Movie" required data-titulo>
         
         <label for="conteudo-video" class="titulo titulo__form">Conteúdo</label>
-        <textarea name="post" id="conteudo-video" class="input__formulario" cols="30" rows="5" placeholder="Add the spinach to the pan, packing it down a bit if you need to with your hand. Use a couple of spatulas (or tongs) to lift the spinach..." required></textarea>
+        <textarea name="post" id="conteudo-video" class="input__formulario" cols="30" rows="5" 
+        placeholder="Add the spinach to the pan, packing it down a bit if you need to with your hand. Use a couple of spatulas (or tongs) to lift the spinach..." required data-descricao></textarea>
     
         <input type="submit" class="formulario__botao">
     </form>
@@ -56,5 +57,7 @@
         <a href="https://www.linkedin.com/in/vitor-bulbovas-852348187/" target="_blank" class="rodape--texto rodape--link">Linkedin</a>
     </footer>
 
+    <script src="../app/conectaAPI.js" type="module"></script>
+    <script src="../app/criaVideo.js" type="module"></script>
 </body>
 </html>
