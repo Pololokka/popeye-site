@@ -7,7 +7,7 @@ async function listaBlog() {
 
 }
 
-//coloca as coisas na DB
+//coloca as coisas na DB do blog
 async function criaBlog(titulo, data, conteudo) {
     const conexao = await fetch("http://localhost:3000/videos", {
         method: "POST",
@@ -21,14 +21,14 @@ async function criaBlog(titulo, data, conteudo) {
         })
     })
     if(!conexao.ok) {
-        throw new Error("Não foi possível enviar o vídeo")
+        throw new Error("Não foi possível fazer o post")
     }
 
     const conexaoConvertida = await conexao.json();
     return conexaoConvertida;
 }
 
-export const conectaAPI = {
+export const conectaAPIBlog = {
     criaBlog,
     listaBlog
 }

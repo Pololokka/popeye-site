@@ -1,7 +1,9 @@
-import { conectaAPI } from "./conectaAPI.js";
+import { conectaAPIBlog } from "./conectaAPI.js";
 
 const form = document.querySelector("[data-formulario]");
 
+
+//tenta criar um novo item na DB, ou exibe um erro
 async function criarBlog (evento) {
     evento.preventDefault();
 
@@ -10,7 +12,7 @@ async function criarBlog (evento) {
     const conteudo = document.querySelector("[data-conteudo]").value;
 
     try{
-        await conectaAPI.criaBlog(titulo, data, conteudo);
+        await conectaAPIBlog.criaBlog(titulo, data, conteudo);
         window.location.href = "../pages/blogPaginaConcluido.html"
     }
     catch(e) {
