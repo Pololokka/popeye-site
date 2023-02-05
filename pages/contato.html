@@ -35,16 +35,18 @@
         </div>
     </header>
 
-    <form class="email__container">
+    <form class="email__container" action="https://formsubmit.co/vitorbulbovas1@hotmail.com" method="POST">
         <label for="nome-email" class="titulo titulo__form">Nome</label>
-        <input type="text" id="nome-email" class="titulo input__formulario" placeholder="Elzie Crisler Segar" required>
+        <input type="text" id="nome-email" class="titulo input__formulario" name="nome" placeholder="Elzie Crisler Segar" required>
 
         <label for="endereco-email" class="titulo titulo__form">Contato</label>
-        <input type="email" id="endereco-email" class="titulo input__formulario--alternativo" placeholder="fr.fiegel@sweetmail.com" required>
+        <input type="email" id="endereco-email" class="titulo input__formulario--alternativo" name="email" placeholder="fr.fiegel@sweetmail.com" required>
 
         <label for="conteudo-email" class="titulo titulo__form">Sua mensagem</label>
-        <textarea name="post" id="conteudo-email" class="input__formulario" cols="30" rows="10" placeholder="I'd like to invite you over to my house for a duck dinner... you bring the ducks!" required></textarea>
+        <textarea name="post" id="conteudo-email" class="input__formulario" name="mensagem" cols="30" rows="10" placeholder="I'd like to invite you over to my house for a duck dinner... you bring the ducks!" required></textarea>
     
+        <input type="hidden" name="_subject" value="Nova mensagem no site do Popeye!">
+        <input type="hidden" name="_next" value="https://pololokka.github.io/popeye-site/pages/contatoPaginaConcluido.html">
         <input type="submit" class="formulario__botao">
     </form>
 
